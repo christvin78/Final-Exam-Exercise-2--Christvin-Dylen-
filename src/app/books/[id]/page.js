@@ -1,6 +1,6 @@
-import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
-import BookDetail from "../components/BookDetail";
+import Sidebar from "../../components/Sidebar.jsx";
+import Navbar from "../../components/Navbar.jsx";
+import BookDetail from "../../components/BookDetail.jsx";
 
 export default async function BookDetailPage({ params }) {
   const { id } = params;
